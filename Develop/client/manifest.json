@@ -1,0 +1,18 @@
+{
+    "short_name": "jate",
+    "name": "jate",
+    "icons": [
+        {
+            "src": "./assets/icons/logo.png",
+            "type": "image/png",
+            "sizes": "96x96",
+            "purpose": "Icon"
+        }
+    ],
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./",
+    "description": "Text Editor with different ways to save data.!",
+    "background_color": "#7EB4E2",
+    "theme_color": "#7EB4E2"
+}
