@@ -32,7 +32,7 @@
     }
   ],
   "name": "jate",
-  "short_name": "Contact",
+  "short_name": "jate",
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "./",
