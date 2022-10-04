@@ -1,5 +1,6 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const WebpackPwaManifest = require("webpack-pwa-manifest");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const path = require("path");
 const { InjectManifest } = require("workbox-webpack-plugin");
 
@@ -22,7 +23,6 @@ module.exports = () => {
       // Webpack plugin that generates our html file and injects our bundles.
       new HtmlWebpackPlugin({
         template: "./index.html",
-        title: "Webpack Plugin",
       }),
       // Injects our custom service worker
       new InjectManifest({
@@ -31,7 +31,7 @@ module.exports = () => {
       }),
       new WebpackPwaManifest({
         fingerprints: false,
-        inject: true,
+        inject: false,
         name: "jate",
         short_name: "Contact",
         description: "Text Editor",
@@ -55,7 +55,7 @@ module.exports = () => {
       rules: [
         {
           test: /\.css$/i,
-          use: ["style-loader", "css-loader"],
+          use: [MiniCssExtractPlugin.loader, "css-loader"],
         },
         {
           test: /\.m?js$/,
@@ -71,6 +71,10 @@ module.exports = () => {
               ],
             },
           },
+        },
+        {
+          test: /\.(png|svg|jpg|jpeg|gif)$/i,
+          type: "asset/resource",
         },
       ],
     },
