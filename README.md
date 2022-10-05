@@ -6,7 +6,7 @@
 
 1. [description](#description)
 
-<<<<<<< HEAD 2. [installation](#installation)
+2. [installation](#installation)
 
 3. [usage](#usage)
 
