@@ -6,7 +6,7 @@
 
 1. [description](#description)
 
-2. [installation](#installation)
+<<<<<<< HEAD 2. [installation](#installation)
 
 3. [usage](#usage)
 
@@ -48,3 +48,6 @@ Use npm run start:dev to start is and go to localhost:3001 to see the website
 
 jordan.laczkowski23@gmail.com
 [JordanLaczkowski](https://github.com/JordanLaczkowski)
+=======
+
+![Screen Shot 2022-10-04 at 7 42 00 PM](https://user-images.githubusercontent.com/109110372/193961791-db007c4c-f319-4089-bdc0-a454edd62543.png)
