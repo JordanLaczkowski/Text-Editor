@@ -1,9 +1,50 @@
-# Text-Editor
+## Text Editor
 
-Title: Text Editor
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-Welcome! In this app you will be able to create text and edit text. You can also install the Jate App!
+## table of contents
 
-Just be sure when you run: "npm run start:dev" that in your Inspect --> Application you clear your site data!
+1. [description](#description)
 
-Try it out with this Heroku Link: https://warm-beach-01143.herokuapp.com/
+2. [installation](#installation)
+
+3. [usage](#usage)
+
+4. [license](#license)
+
+5. [contributing](#contributing)
+
+6. [tests](#tests)
+
+7. [contact](#contact)
+
+# description
+
+To be able to write text, save and edit the text. It can also install the app. Try it out using "npm run start:dev" or use this Heroku Deployed link: https://warm-beach-01143.herokuapp.com/
+
+# installation
+
+Start with "npm run start:dev"
+
+#usage
+
+A text editor that can be used off line. It can also be downloaded as a progressive web app.
+
+# license
+
+MIT
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+# contributing
+
+Lots of team work here! If you see anything you'd like to see changed, let me know!
+
+# tests
+
+Use npm run start:dev to start is and go to localhost:3001 to see the website
+
+# contact
+
+jordan.laczkowski23@gmail.com
+[JordanLaczkowski](https://github.com/JordanLaczkowski)
